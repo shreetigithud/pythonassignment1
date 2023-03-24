@@ -1,71 +1,133 @@
 ## Assignment Part-1
 Q1. Why do we call Python as a general purpose and high-level programming language?
+Ans:- It is designed to be used for application such as Web Development, Data Science, Software also it can be used for variety of different programs.
 
 Q2. Why is Python called a dynamically typed language?
+Ans: Because the type of variable is determined only during run time, where the interpreter asign variable a type at runtime based on the variable's value at time.
 
 Q3. List some pros and cons of Python programming language?
+Ans:- Addavantage of ussing python is easy to use, straight forward syntax, large user base, free and open-source license and cons of ussing python is heavy memory using.
 
 Q4. In what all domains can we use Python?
+Ans:- python is a programming language for domain such as deep learnig, machne learning, artificial Intelligence and also It Is fundamental tool for any data scientist.
 
 Q5. What are variable and how can we declare them?
+Ans:- variable is a basic unit of storage programming language, variable consist of a data type, the valable name, and the value to be assigned to the variable.
 
 Q6. How can we take an input from the user in Python?
+Ans:- For that we use Input funtion, first we print the message which we want to take input from user and save in variable 
+for example; name-input("what is your name)
+Then with print funtion we take input
+example:-print(name)
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
+ Ans: By default, it return a string object.Hence, the input() function by default return the value as string data type.
 
 Q8. What is type casting?
+Ans:- The conversion of one data type into the other data type is known as type casting, python suport a wide variety of function or method like: int(),str(),float(),tuple(),set(),list(),dict(),and() for the type casting in python.
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Ans: yes we can take multiple inputs in one single line by using the raw_input funtion several times.
 
 Q10. What are keywords?
+Ans:- python keywords are special reserved word that have specific meanings and purposes and can't be used for anything but those specific purposes.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans :-no,keyword define the language's syntax rules and structure, and they cannot be used as variable names.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+ Ans: indentation refers to the spaces at the beginning of a code line, python uses indentation to indicate a block of code.
 
 Q13. How can we throw some output in Python?
+ Ans: the basic way to do output is the print statement.
 
 Q14. What are operators in Python?
-
+Ans: Arithmetic operators
+     comparison operators
+     membership operators
+     logical operators
+     Identity operators
+     membership operators
+     bitwise operators.
 Q15. What is difference between / and // operators?
+Ans:-/ stands for normal division, devides the value on the left by the one on the right,notice the division result in a floating point value.
+ // stands for floor division divides and return the integer value of the quotient.it neglect the digits after the decimal.
 
 Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
+Ans:print("ineuron\"*4)
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans number int(input("Enter a number:))
+    if (number%2)==0;
+    print(number, is even number)
+    else:
+         print(number, "is odd number)
 
 Q18. What are boolean operator?
+Ans: Boolean is type of value that can be either True or False.
 
 Q19. What will the output of the following?
 ```
 1 or 0
-
+0
 0 and 0
-
+1
 True and False and True
-
+True
 1 or 0 or 0
 ```
 
 Q20. What are conditional statements in Python?
+Ans: A condition statement as the name suggests itself, is used to handel conditions in your program. these statement guide the program while making decisions based on the condition encountered by the program.
+and it has 3 key conditional statement
+    1. if statement
+    2. if else statement
+    3. if elif-else statement
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans: if statement used determine whether a block of code will be executed or not
+     if-else statement work in conjuction with the if statement to execute  code block when the define if condition is false.
+     ans the if-elif-else statement is used check for multiple condition and execute the code block within if any of the condition evalute to be true.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Ans: age-int(input("28:"))
+     if age>18:
+        print("i can vote")
+     if age<18:
+        print("I can't vote")
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
-numbers = [12, 75, 150, 180, 145, 525, 50]
+numbers = [12, 17, 150, 180, 145, 525, 50]
 ```
-
+Ans: 1st step:-1st[12,75,150,180,145,525,50]
+            for val in 1st:
+            print(val)
+     2ns step: 1st[12,17,150,180,145,525,50]
+               sum=0
+               for val in 1st:
+               sum=sum+val
+               print(sum)
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans: num1 = int(input('enter 1st number here:'))
+     num2 = int(input('enter 2nd number here:'))
+     num3 = int(input('enter 3rd number here:'))
+     if (num1 > num2) and (num1 > num3)
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
 - The number must be divisible by five
+Ans: a = [12,75,150,180,145,525,50]
+     b = []
+     for i in a:
+         if i > 500:
+          break continue
+         if i % 5 == o:
+      print(b)
 
 - If the number is greater than 150, then skip it and move to the next number
 
